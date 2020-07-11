@@ -1,4 +1,4 @@
-# Install script for directory: D:/Code/Advanced_Computer_Graph
+# Install script for directory: D:/Code/AdvancedComputerGraph
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Code/Advanced_Computer_Graph/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Code/AdvancedComputerGraph/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/Code/Advanced_Computer_Graph/Hittable.h
+D:/Code/AdvancedComputerGraph/Hittable.h
 Ray.h
-D:/Code/Advanced_Computer_Graph/Ray.h
+D:/Code/AdvancedComputerGraph/Ray.h
 
-D:/Code/Advanced_Computer_Graph/Ray.h
+D:/Code/AdvancedComputerGraph/Ray.h
 Utility.h
-D:/Code/Advanced_Computer_Graph/Utility.h
+D:/Code/AdvancedComputerGraph/Utility.h
 
-D:/Code/Advanced_Computer_Graph/Triangle.cpp
+D:/Code/AdvancedComputerGraph/Triangle.cpp
 Triangle.h
-D:/Code/Advanced_Computer_Graph/Triangle.h
+D:/Code/AdvancedComputerGraph/Triangle.h
 
-D:/Code/Advanced_Computer_Graph/Triangle.h
+D:/Code/AdvancedComputerGraph/Triangle.h
 Utility.h
-D:/Code/Advanced_Computer_Graph/Utility.h
+D:/Code/AdvancedComputerGraph/Utility.h
 Hittable.h
-D:/Code/Advanced_Computer_Graph/Hittable.h
+D:/Code/AdvancedComputerGraph/Hittable.h
 
-D:/Code/Advanced_Computer_Graph/Utility.h
+D:/Code/AdvancedComputerGraph/Utility.h
 cmath
 -
 iostream

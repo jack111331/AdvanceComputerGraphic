@@ -42,10 +42,10 @@ RM = "D:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Code\Advanced_Computer_Graph
+CMAKE_SOURCE_DIR = D:\Code\AdvancedComputerGraph
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Code\Advanced_Computer_Graph\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Code\AdvancedComputerGraph\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Advanced_Computer_Graph.dir/depend.make
@@ -58,81 +58,81 @@ include CMakeFiles/Advanced_Computer_Graph.dir/flags.make
 
 CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj: CMakeFiles/Advanced_Computer_Graph.dir/flags.make
 CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Advanced_Computer_Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj"
-	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\main.cpp.obj -c D:\Code\Advanced_Computer_Graph\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\AdvancedComputerGraph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj"
+	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\main.cpp.obj -c D:\Code\AdvancedComputerGraph\main.cpp
 
 CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.i"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Advanced_Computer_Graph\main.cpp > CMakeFiles\Advanced_Computer_Graph.dir\main.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\AdvancedComputerGraph\main.cpp > CMakeFiles\Advanced_Computer_Graph.dir\main.cpp.i
 
 CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.s"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Advanced_Computer_Graph\main.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\main.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\AdvancedComputerGraph\main.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\main.cpp.s
 
 CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: CMakeFiles/Advanced_Computer_Graph.dir/flags.make
 CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: ../Sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Advanced_Computer_Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj"
-	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\Sphere.cpp.obj -c D:\Code\Advanced_Computer_Graph\Sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\AdvancedComputerGraph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj"
+	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\Sphere.cpp.obj -c D:\Code\AdvancedComputerGraph\Sphere.cpp
 
 CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.i"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Advanced_Computer_Graph\Sphere.cpp > CMakeFiles\Advanced_Computer_Graph.dir\Sphere.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\AdvancedComputerGraph\Sphere.cpp > CMakeFiles\Advanced_Computer_Graph.dir\Sphere.cpp.i
 
 CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.s"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Advanced_Computer_Graph\Sphere.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\Sphere.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\AdvancedComputerGraph\Sphere.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\Sphere.cpp.s
 
 CMakeFiles/Advanced_Computer_Graph.dir/Camera.cpp.obj: CMakeFiles/Advanced_Computer_Graph.dir/flags.make
 CMakeFiles/Advanced_Computer_Graph.dir/Camera.cpp.obj: ../Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Advanced_Computer_Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/Camera.cpp.obj"
-	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\Camera.cpp.obj -c D:\Code\Advanced_Computer_Graph\Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\AdvancedComputerGraph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/Camera.cpp.obj"
+	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\Camera.cpp.obj -c D:\Code\AdvancedComputerGraph\Camera.cpp
 
 CMakeFiles/Advanced_Computer_Graph.dir/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Advanced_Computer_Graph.dir/Camera.cpp.i"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Advanced_Computer_Graph\Camera.cpp > CMakeFiles\Advanced_Computer_Graph.dir\Camera.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\AdvancedComputerGraph\Camera.cpp > CMakeFiles\Advanced_Computer_Graph.dir\Camera.cpp.i
 
 CMakeFiles/Advanced_Computer_Graph.dir/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Advanced_Computer_Graph.dir/Camera.cpp.s"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Advanced_Computer_Graph\Camera.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\Camera.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\AdvancedComputerGraph\Camera.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\Camera.cpp.s
 
 CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: CMakeFiles/Advanced_Computer_Graph.dir/flags.make
 CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: ../Scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Advanced_Computer_Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj"
-	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\Scene.cpp.obj -c D:\Code\Advanced_Computer_Graph\Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\AdvancedComputerGraph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj"
+	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\Scene.cpp.obj -c D:\Code\AdvancedComputerGraph\Scene.cpp
 
 CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.i"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Advanced_Computer_Graph\Scene.cpp > CMakeFiles\Advanced_Computer_Graph.dir\Scene.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\AdvancedComputerGraph\Scene.cpp > CMakeFiles\Advanced_Computer_Graph.dir\Scene.cpp.i
 
 CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.s"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Advanced_Computer_Graph\Scene.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\Scene.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\AdvancedComputerGraph\Scene.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\Scene.cpp.s
 
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: CMakeFiles/Advanced_Computer_Graph.dir/flags.make
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Advanced_Computer_Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj"
-	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\Config.cpp.obj -c D:\Code\Advanced_Computer_Graph\Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\AdvancedComputerGraph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj"
+	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\Config.cpp.obj -c D:\Code\AdvancedComputerGraph\Config.cpp
 
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.i"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Advanced_Computer_Graph\Config.cpp > CMakeFiles\Advanced_Computer_Graph.dir\Config.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\AdvancedComputerGraph\Config.cpp > CMakeFiles\Advanced_Computer_Graph.dir\Config.cpp.i
 
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.s"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Advanced_Computer_Graph\Config.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\Config.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\AdvancedComputerGraph\Config.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\Config.cpp.s
 
 CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: CMakeFiles/Advanced_Computer_Graph.dir/flags.make
 CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Advanced_Computer_Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj"
-	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\Triangle.cpp.obj -c D:\Code\Advanced_Computer_Graph\Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\AdvancedComputerGraph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj"
+	D:\MinGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Advanced_Computer_Graph.dir\Triangle.cpp.obj -c D:\Code\AdvancedComputerGraph\Triangle.cpp
 
 CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.i"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Advanced_Computer_Graph\Triangle.cpp > CMakeFiles\Advanced_Computer_Graph.dir\Triangle.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\AdvancedComputerGraph\Triangle.cpp > CMakeFiles\Advanced_Computer_Graph.dir\Triangle.cpp.i
 
 CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.s"
-	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Advanced_Computer_Graph\Triangle.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\Triangle.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\AdvancedComputerGraph\Triangle.cpp -o CMakeFiles\Advanced_Computer_Graph.dir\Triangle.cpp.s
 
 # Object files for target Advanced_Computer_Graph
 Advanced_Computer_Graph_OBJECTS = \
@@ -156,7 +156,7 @@ Advanced_Computer_Graph.exe: CMakeFiles/Advanced_Computer_Graph.dir/build.make
 Advanced_Computer_Graph.exe: CMakeFiles/Advanced_Computer_Graph.dir/linklibs.rsp
 Advanced_Computer_Graph.exe: CMakeFiles/Advanced_Computer_Graph.dir/objects1.rsp
 Advanced_Computer_Graph.exe: CMakeFiles/Advanced_Computer_Graph.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\Advanced_Computer_Graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Advanced_Computer_Graph.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\AdvancedComputerGraph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Advanced_Computer_Graph.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Advanced_Computer_Graph.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +169,6 @@ CMakeFiles/Advanced_Computer_Graph.dir/clean:
 .PHONY : CMakeFiles/Advanced_Computer_Graph.dir/clean
 
 CMakeFiles/Advanced_Computer_Graph.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\Advanced_Computer_Graph D:\Code\Advanced_Computer_Graph D:\Code\Advanced_Computer_Graph\cmake-build-debug D:\Code\Advanced_Computer_Graph\cmake-build-debug D:\Code\Advanced_Computer_Graph\cmake-build-debug\CMakeFiles\Advanced_Computer_Graph.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\AdvancedComputerGraph D:\Code\AdvancedComputerGraph D:\Code\AdvancedComputerGraph\cmake-build-debug D:\Code\AdvancedComputerGraph\cmake-build-debug D:\Code\AdvancedComputerGraph\cmake-build-debug\CMakeFiles\Advanced_Computer_Graph.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Advanced_Computer_Graph.dir/depend
 

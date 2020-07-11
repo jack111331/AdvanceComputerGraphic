@@ -36,6 +36,21 @@ public:
         return {y*rhs.z - z*rhs.y, z*rhs.x - x*rhs.z, x*rhs.y - y*rhs.x};
     }
 
+    Velocity operator + (const Velocity &rhs) const {
+        Velocity copy = {x + rhs.x, y * rhs.y, z * rhs.z};
+        return copy;
+    }
+
+    Velocity operator * (float rhs) const {
+        Velocity copy = {rhs * x, rhs * y, rhs * z};
+        return copy;
+    }
+
+    friend Velocity operator * (float lhs, const Velocity &rhs) {
+        Velocity copy = {lhs * rhs.x, lhs * rhs.y, lhs * rhs.z};
+        return copy;
+    }
+
 };
 
 class Coord {
@@ -47,6 +62,11 @@ public:
 
     Velocity operator - (const Coord &rhs) const {
         Velocity copy = {x - rhs.x, y - rhs.y, z - rhs.z};
+        return copy;
+    }
+
+    Coord operator + (const Velocity &rhs) const {
+        Coord copy = {x + rhs.x, y + rhs.y, z + rhs.z};
         return copy;
     }
 };
