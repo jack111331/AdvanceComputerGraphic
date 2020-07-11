@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Code/Advanced_Computer_Graph/Hittable.h
+Ray.h
+D:/Code/Advanced_Computer_Graph/Ray.h
+
+D:/Code/Advanced_Computer_Graph/Ray.h
+Utility.h
+D:/Code/Advanced_Computer_Graph/Utility.h
+
+D:/Code/Advanced_Computer_Graph/Triangle.cpp
+Triangle.h
+D:/Code/Advanced_Computer_Graph/Triangle.h
+
+D:/Code/Advanced_Computer_Graph/Triangle.h
+Utility.h
+D:/Code/Advanced_Computer_Graph/Utility.h
+Hittable.h
+D:/Code/Advanced_Computer_Graph/Hittable.h
+
+D:/Code/Advanced_Computer_Graph/Utility.h
+cmath
+-
+iostream
+-
+
