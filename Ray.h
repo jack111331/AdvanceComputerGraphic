@@ -9,9 +9,9 @@
 
 class Ray {
 public:
+    Coord pointAt(double t) const;
     Coord origin;
     Velocity velocity;
-    float t;
 };
 
 #endif //ADVANCED_COMPUTER_GRAPH_RAY_H

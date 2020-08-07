@@ -9,10 +9,14 @@
 using std::ofstream;
 using std::ios;
 
-Camera::Camera(int width, int height, Coord eyeCoord, Coord leftLower, Coord leftUpper, Coord rightLower,
-               Coord rightUpper) : m_width(width),
-                                   m_height(height), m_eyeCoord(eyeCoord), m_leftLower(leftLower),
-                                   m_leftUpper(leftUpper), m_rightLower(rightLower), m_rightUpper(rightUpper) {
+Camera::Camera(int width, int height, Coord eyeCoord, double fov, Velocity direction, Velocity up) : m_width(width),
+                                                                                                    m_height(height),
+                                                                                                    m_eyeCoord(
+                                                                                                            eyeCoord),
+                                                                                                    m_fov(fov),
+                                                                                                    m_direction(
+                                                                                                            direction),
+                                                                                                    m_up(up) {
     m_screen = new Color *[height];
     for (int i = 0; i < height; ++i) {
         m_screen[i] = new Color[width];

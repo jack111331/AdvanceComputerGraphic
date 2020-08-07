@@ -8,6 +8,7 @@
 
 #include "Utility.h"
 #include "Hittable.h"
+#include "Material.h"
 
 class Triangle : public Hittable {
 public:
@@ -17,7 +18,8 @@ public:
         }
     };
 
-    virtual bool isHit(Ray &ray);
+    virtual bool isHit(double tmin, const Ray &ray, HitRecord &record);
+
 
     Coord m_point[3];
 };

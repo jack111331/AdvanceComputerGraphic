@@ -11,10 +11,13 @@
 
 class Sphere : public Hittable {
 public:
+    Sphere(Coord origin, double radius) : m_origin(origin), m_radius(radius) {};
+
+    virtual bool isHit(double tmin, const Ray &ray, HitRecord &record);
+
+
     Coord m_origin;
-    float m_radius;
-    Sphere(Coord origin, float radius) : m_origin(origin), m_radius(radius) {};
-    virtual bool isHit(Ray &ray);
+    double m_radius;
 };
 
 

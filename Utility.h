@@ -7,76 +7,136 @@
 
 #include <cmath>
 #include <iostream>
+#include <vector>
 
 class Velocity {
 public:
-    float x, y, z;
-    Velocity &operator -= (const Velocity &rhs) {
+    double x, y, z;
+
+    friend std::istream &operator>>(std::istream &is, Velocity &velocity) {
+        is >> velocity.x >> velocity.y >> velocity.z;
+    }
+
+    Velocity &operator-=(const Velocity &rhs) {
         x -= rhs.x;
         y -= rhs.y;
         z -= rhs.z;
         return *this;
     }
 
-    Velocity operator - (const Velocity &rhs) {
-        Velocity copy = *this;
+    Velocity operator-() const {
+        return {-x, -y, -z};
+    }
+
+    Velocity operator-(const Velocity &rhs) const {
+        Velocity copy(*this);
         copy -= rhs;
         return copy;
     }
 
-    float length() {
-        return sqrt(x*x + y*y + z*z);
+    double length() const {
+        return sqrt(x * x + y * y + z * z);
     }
 
-    float dot(const Velocity &rhs) {
-        return x*rhs.x + y*rhs.y + z*rhs.z;
+    double dot(const Velocity &rhs) const {
+        return x * rhs.x + y * rhs.y + z * rhs.z;
     }
 
-    Velocity cross(const Velocity &rhs) {
-        return {y*rhs.z - z*rhs.y, z*rhs.x - x*rhs.z, x*rhs.y - y*rhs.x};
+    Velocity cross(const Velocity &rhs) const {
+        return {y * rhs.z - z * rhs.y, z * rhs.x - x * rhs.z, x * rhs.y - y * rhs.x};
     }
 
-    Velocity operator + (const Velocity &rhs) const {
-        Velocity copy = {x + rhs.x, y * rhs.y, z * rhs.z};
-        return copy;
+    Velocity reflect(const Velocity &normal) const {
+        Velocity reflectedVelocity(*this);
+        return reflectedVelocity - 2.0 * reflectedVelocity.dot(normal) * normal.normalize();
     }
 
-    Velocity operator * (float rhs) const {
-        Velocity copy = {rhs * x, rhs * y, rhs * z};
-        return copy;
+    Velocity normalize() const {
+        Velocity normalizedVelocity(*this);
+        return normalizedVelocity.normalize();
     }
 
-    friend Velocity operator * (float lhs, const Velocity &rhs) {
-        Velocity copy = {lhs * rhs.x, lhs * rhs.y, lhs * rhs.z};
-        return copy;
+    Velocity &normalize() {
+        double velocityLength = length();
+        x /= velocityLength;
+        y /= velocityLength;
+        z /= velocityLength;
+        return *this;
+    }
+
+    Velocity operator+(const Velocity &rhs) const {
+        return {x + rhs.x, y * rhs.y, z * rhs.z};
+    }
+
+    Velocity operator*(double rhs) const {
+        return  {rhs * x, rhs * y, rhs * z};
+    }
+
+    friend Velocity operator*(double lhs, const Velocity &rhs) {
+        return {lhs * rhs.x, lhs * rhs.y, lhs * rhs.z};
     }
 
 };
 
 class Coord {
 public:
-    float x, y, z;
-    friend std::istream &operator >> (std::istream &is, Coord &coord) {
+    double x, y, z;
+
+    friend std::istream &operator>>(std::istream &is, Coord &coord) {
         is >> coord.x >> coord.y >> coord.z;
     }
 
-    Velocity operator - (const Coord &rhs) const {
-        Velocity copy = {x - rhs.x, y - rhs.y, z - rhs.z};
-        return copy;
+    Velocity operator-(const Coord &rhs) const {
+        return {x - rhs.x, y - rhs.y, z - rhs.z};
     }
 
-    Coord operator + (const Velocity &rhs) const {
-        Coord copy = {x + rhs.x, y + rhs.y, z + rhs.z};
-        return copy;
+    Coord operator+(const Velocity &rhs) const {
+        return {x + rhs.x, y + rhs.y, z + rhs.z};
+    }
+
+    Coord operator-(const Velocity &rhs) const {
+        return {x - rhs.x, y - rhs.y, z - rhs.z};
     }
 };
 
 class Color {
 public:
-    float r, g, b;
-    friend std::ostream &operator << (std::ostream &os, const Color &color) {
-        os << (uint8_t)color.r << (uint8_t)color.g << (uint8_t)color.b;
+    double r, g, b;
+
+    friend std::istream &operator>>(std::istream &is, Color &color) {
+        is >> color.r >> color.g >> color.b;
     }
+
+    friend std::ostream &operator<<(std::ostream &os, const Color &color) {
+        os << (uint8_t) (255.99 * color.r) << (uint8_t) (255.99 * color.g) << (uint8_t) (255.99 * color.b);
+    }
+
+    friend Color operator*(double lhs, const Color &rhs) {
+        return {lhs * rhs.r, lhs * rhs.g, lhs * rhs.b};
+    }
+
+    Color operator+(const Color &rhs) const {
+        return {r + rhs.r, g + rhs.g, b + rhs.b};
+    }
+};
+
+class Material;
+
+class HitRecord {
+public:
+    double t;
+    Coord point;
+    Velocity normal;
+    Material *material;
+};
+
+class LightRecord {
+public:
+    void addShadedLight(bool isShadedLight) {
+        isShadedLightList.push_back(isShadedLight);
+    }
+
+    std::vector<bool> isShadedLightList;
 };
 
 

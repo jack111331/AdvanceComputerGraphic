@@ -6,13 +6,18 @@
 #define ADVANCED_COMPUTER_GRAPH_SCENE_H
 
 #include <vector>
-#include "Hittable.h"
+#include "Ray.h"
+#include "Light.h"
 #include "Camera.h"
+
+class HittableList;
 
 class Scene {
 public:
+    Color castRay(Ray &ray, double intensity, int depth);
     void displayScene();
-    std::vector<Hittable *> m_hittableList;
+    HittableList *m_hittableList;
+    std::vector<Light *> m_lightList;
     Camera *m_camera;
 };
 

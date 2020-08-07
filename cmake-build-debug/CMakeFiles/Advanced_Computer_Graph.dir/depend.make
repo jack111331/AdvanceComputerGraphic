@@ -9,27 +9,76 @@ CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Camera.h
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Config.cpp
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Config.h
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Hittable.h
+CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../HittableList.h
+CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Light.h
+CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Material.h
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Ray.h
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Scene.h
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Sphere.h
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Triangle.h
 CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.obj: ../Utility.h
 
+CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.obj: ../Camera.h
+CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.obj: ../Hittable.cpp
+CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.obj: ../Hittable.h
+CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.obj: ../Light.h
+CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.obj: ../Material.h
+CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.obj: ../Ray.h
+CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.obj: ../Scene.h
+CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.obj: ../Utility.h
+
+CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.obj: ../Camera.h
+CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.obj: ../Hittable.h
+CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.obj: ../HittableList.cpp
+CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.obj: ../HittableList.h
+CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.obj: ../Light.h
+CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.obj: ../Material.h
+CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.obj: ../Ray.h
+CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.obj: ../Scene.h
+CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.obj: ../Utility.h
+
+CMakeFiles/Advanced_Computer_Graph.dir/Light.cpp.obj: ../Light.cpp
+CMakeFiles/Advanced_Computer_Graph.dir/Light.cpp.obj: ../Light.h
+CMakeFiles/Advanced_Computer_Graph.dir/Light.cpp.obj: ../Utility.h
+
+CMakeFiles/Advanced_Computer_Graph.dir/Material.cpp.obj: ../Camera.h
+CMakeFiles/Advanced_Computer_Graph.dir/Material.cpp.obj: ../Light.h
+CMakeFiles/Advanced_Computer_Graph.dir/Material.cpp.obj: ../Material.cpp
+CMakeFiles/Advanced_Computer_Graph.dir/Material.cpp.obj: ../Material.h
+CMakeFiles/Advanced_Computer_Graph.dir/Material.cpp.obj: ../Ray.h
+CMakeFiles/Advanced_Computer_Graph.dir/Material.cpp.obj: ../Scene.h
+CMakeFiles/Advanced_Computer_Graph.dir/Material.cpp.obj: ../Utility.h
+
+CMakeFiles/Advanced_Computer_Graph.dir/Ray.cpp.obj: ../Ray.cpp
+CMakeFiles/Advanced_Computer_Graph.dir/Ray.cpp.obj: ../Ray.h
+CMakeFiles/Advanced_Computer_Graph.dir/Ray.cpp.obj: ../Utility.h
+
 CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: ../Camera.h
 CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: ../Hittable.h
+CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: ../HittableList.h
+CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: ../Light.h
+CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: ../Material.h
 CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: ../Ray.h
 CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: ../Scene.cpp
 CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: ../Scene.h
 CMakeFiles/Advanced_Computer_Graph.dir/Scene.cpp.obj: ../Utility.h
 
+CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: ../Camera.h
 CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: ../Hittable.h
+CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: ../Light.h
+CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: ../Material.h
 CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: ../Ray.h
+CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: ../Scene.h
 CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: ../Sphere.cpp
 CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: ../Sphere.h
 CMakeFiles/Advanced_Computer_Graph.dir/Sphere.cpp.obj: ../Utility.h
 
+CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Camera.h
 CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Hittable.h
+CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Light.h
+CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Material.h
 CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Ray.h
+CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Scene.h
 CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Triangle.cpp
 CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Triangle.h
 CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Utility.h
@@ -37,6 +86,8 @@ CMakeFiles/Advanced_Computer_Graph.dir/Triangle.cpp.obj: ../Utility.h
 CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj: ../Camera.h
 CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj: ../Config.h
 CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj: ../Hittable.h
+CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj: ../Light.h
+CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj: ../Material.h
 CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj: ../Ray.h
 CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj: ../Scene.h
 CMakeFiles/Advanced_Computer_Graph.dir/main.cpp.obj: ../Sphere.h

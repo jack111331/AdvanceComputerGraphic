@@ -176,6 +176,141 @@ Config.cpp.s:
 	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Config.cpp.s
 .PHONY : Config.cpp.s
 
+Hittable.obj: Hittable.cpp.obj
+
+.PHONY : Hittable.obj
+
+# target to build an object file
+Hittable.cpp.obj:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.obj
+.PHONY : Hittable.cpp.obj
+
+Hittable.i: Hittable.cpp.i
+
+.PHONY : Hittable.i
+
+# target to preprocess a source file
+Hittable.cpp.i:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.i
+.PHONY : Hittable.cpp.i
+
+Hittable.s: Hittable.cpp.s
+
+.PHONY : Hittable.s
+
+# target to generate assembly for a file
+Hittable.cpp.s:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Hittable.cpp.s
+.PHONY : Hittable.cpp.s
+
+HittableList.obj: HittableList.cpp.obj
+
+.PHONY : HittableList.obj
+
+# target to build an object file
+HittableList.cpp.obj:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.obj
+.PHONY : HittableList.cpp.obj
+
+HittableList.i: HittableList.cpp.i
+
+.PHONY : HittableList.i
+
+# target to preprocess a source file
+HittableList.cpp.i:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.i
+.PHONY : HittableList.cpp.i
+
+HittableList.s: HittableList.cpp.s
+
+.PHONY : HittableList.s
+
+# target to generate assembly for a file
+HittableList.cpp.s:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/HittableList.cpp.s
+.PHONY : HittableList.cpp.s
+
+Light.obj: Light.cpp.obj
+
+.PHONY : Light.obj
+
+# target to build an object file
+Light.cpp.obj:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Light.cpp.obj
+.PHONY : Light.cpp.obj
+
+Light.i: Light.cpp.i
+
+.PHONY : Light.i
+
+# target to preprocess a source file
+Light.cpp.i:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Light.cpp.i
+.PHONY : Light.cpp.i
+
+Light.s: Light.cpp.s
+
+.PHONY : Light.s
+
+# target to generate assembly for a file
+Light.cpp.s:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Light.cpp.s
+.PHONY : Light.cpp.s
+
+Material.obj: Material.cpp.obj
+
+.PHONY : Material.obj
+
+# target to build an object file
+Material.cpp.obj:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Material.cpp.obj
+.PHONY : Material.cpp.obj
+
+Material.i: Material.cpp.i
+
+.PHONY : Material.i
+
+# target to preprocess a source file
+Material.cpp.i:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Material.cpp.i
+.PHONY : Material.cpp.i
+
+Material.s: Material.cpp.s
+
+.PHONY : Material.s
+
+# target to generate assembly for a file
+Material.cpp.s:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Material.cpp.s
+.PHONY : Material.cpp.s
+
+Ray.obj: Ray.cpp.obj
+
+.PHONY : Ray.obj
+
+# target to build an object file
+Ray.cpp.obj:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Ray.cpp.obj
+.PHONY : Ray.cpp.obj
+
+Ray.i: Ray.cpp.i
+
+.PHONY : Ray.i
+
+# target to preprocess a source file
+Ray.cpp.i:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Ray.cpp.i
+.PHONY : Ray.cpp.i
+
+Ray.s: Ray.cpp.s
+
+.PHONY : Ray.s
+
+# target to generate assembly for a file
+Ray.cpp.s:
+	$(MAKE) -f CMakeFiles\Advanced_Computer_Graph.dir\build.make CMakeFiles/Advanced_Computer_Graph.dir/Ray.cpp.s
+.PHONY : Ray.cpp.s
+
 Scene.obj: Scene.cpp.obj
 
 .PHONY : Scene.obj
@@ -299,6 +434,21 @@ help:
 	@echo ... Config.obj
 	@echo ... Config.i
 	@echo ... Config.s
+	@echo ... Hittable.obj
+	@echo ... Hittable.i
+	@echo ... Hittable.s
+	@echo ... HittableList.obj
+	@echo ... HittableList.i
+	@echo ... HittableList.s
+	@echo ... Light.obj
+	@echo ... Light.i
+	@echo ... Light.s
+	@echo ... Material.obj
+	@echo ... Material.i
+	@echo ... Material.s
+	@echo ... Ray.obj
+	@echo ... Ray.i
+	@echo ... Ray.s
 	@echo ... Scene.obj
 	@echo ... Scene.i
 	@echo ... Scene.s

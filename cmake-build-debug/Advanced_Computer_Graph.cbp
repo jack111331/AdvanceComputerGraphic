@@ -92,7 +92,31 @@
 		<Unit filename="D:/Code/AdvancedComputerGraph/Config.h">
 			<Option target="Advanced_Computer_Graph"/>
 		</Unit>
+		<Unit filename="D:/Code/AdvancedComputerGraph/Hittable.cpp">
+			<Option target="Advanced_Computer_Graph"/>
+		</Unit>
 		<Unit filename="D:/Code/AdvancedComputerGraph/Hittable.h">
+			<Option target="Advanced_Computer_Graph"/>
+		</Unit>
+		<Unit filename="D:/Code/AdvancedComputerGraph/HittableList.cpp">
+			<Option target="Advanced_Computer_Graph"/>
+		</Unit>
+		<Unit filename="D:/Code/AdvancedComputerGraph/HittableList.h">
+			<Option target="Advanced_Computer_Graph"/>
+		</Unit>
+		<Unit filename="D:/Code/AdvancedComputerGraph/Light.cpp">
+			<Option target="Advanced_Computer_Graph"/>
+		</Unit>
+		<Unit filename="D:/Code/AdvancedComputerGraph/Light.h">
+			<Option target="Advanced_Computer_Graph"/>
+		</Unit>
+		<Unit filename="D:/Code/AdvancedComputerGraph/Material.cpp">
+			<Option target="Advanced_Computer_Graph"/>
+		</Unit>
+		<Unit filename="D:/Code/AdvancedComputerGraph/Material.h">
+			<Option target="Advanced_Computer_Graph"/>
+		</Unit>
+		<Unit filename="D:/Code/AdvancedComputerGraph/Ray.cpp">
 			<Option target="Advanced_Computer_Graph"/>
 		</Unit>
 		<Unit filename="D:/Code/AdvancedComputerGraph/Ray.h">

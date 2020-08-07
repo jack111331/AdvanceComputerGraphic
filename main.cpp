@@ -8,7 +8,7 @@
 int main() {
     Scene *scene = new Scene();
     Config *config = new Config();
-    config->loadConfig("config/hw1_input.txt", scene);
+    config->loadConfig("config/hw2_input.txt", scene);
     scene->displayScene();
     scene->m_camera->toPpm("output.ppm");
 

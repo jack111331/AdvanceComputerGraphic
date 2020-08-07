@@ -10,14 +10,15 @@
 
 class Camera {
 public:
-    Camera(int width, int height, Coord eyeCoord, Coord leftLower, Coord leftUpper, Coord rightLower, Coord rightUpper);
+    Camera(int width, int height, Coord eyeCoord, double fov, Velocity direction, Velocity up);
     void toPpm(const std::string &filename);
 
     int m_width, m_height;
     Color **m_screen;
 
     Coord m_eyeCoord;
-    Coord m_leftLower, m_leftUpper, m_rightLower, m_rightUpper;
+    double m_fov;
+    Velocity m_direction, m_up;
 };
 
 
